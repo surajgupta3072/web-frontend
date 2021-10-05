@@ -29,6 +29,7 @@ export default function Home() {
                 </AutoplaySlider>
             </Section>
             <Section>
+                <div style={{border: "5px solid #000"}}>
                 <h2 className='section-heading'>
                     About Us
                 </h2>
@@ -42,6 +43,7 @@ export default function Home() {
                 <p className='description'>
                     The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
                 </p>
+                </div>
             </Section>
         </Layout>
     );

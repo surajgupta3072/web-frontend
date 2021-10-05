@@ -32,13 +32,16 @@ section {
 }
 
 section .section-heading {
-  font-size: 34px;
+  font-size: 44px;
   margin: 20px 0;
-  text-align: center;
+  text-align: center;  
+  padding-top: 2%;  
 }
 
 section .description {
   font-size: 18px;
+  padding: 1% 2% 2% 1%;  
+  margin-left: 2%;
 }
 
 section blockquote {
@@ -47,5 +50,18 @@ section blockquote {
   border: 0;
   border-left: 4px;
   border-style: solid;
-  border-color: rgb(117, 117, 117);
+  border-color: #673ab7;
+}
+
+@media screen and (max-width: 768px) {
+  section .section-heading {
+    font-size: 24px; 
+  }
+  section .description {
+    font-size: 13px;
+    
+    margin-left: 5%;
+    padding-bottom: 2%;
+    
+  }
 }
